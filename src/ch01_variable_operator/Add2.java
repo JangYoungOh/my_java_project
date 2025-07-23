@@ -7,7 +7,7 @@ public class Add2 {
         int c = 5;
         int z = 2*a + 3*b - c;
 
-        System.out.println("result = 2*a + 3*b - c" + "=" + z );
+        System.out.println("result = 2*a + 3*b - c" + " = " + z );
         String result = "a : " + a ;
         result = result + "\nb : " + b ;
         result = result + "\nc : " + c ;
