@@ -6,19 +6,21 @@ public class AdultCheck {
         int age = 12; // 나이
         int _gender = 3; // 주빈번호 뒷자리 성별(숫자)
         String gender ; // 성별(한글)
-
+        String adult ; // 미성년자 여부 문자열
         if(age>=19){
-            System.out.println("성인체크 : 성인");
+            adult = " 성인";
         }else{
-            System.out.println("성인체크 : 미성년자");
+            adult = "미성년자";
         }
         if(_gender == 3 || _gender == 1){
-            System.out.println("성별 : 남자");
+            gender = "남자";
+
+
         }else{
-            System.out.println("성별 : 여자");
-
+            gender="여자";
         }
-
-        System.out.println("이름 : " + name);
+        String message ;
+        message = "이름 : " + name + "님, 나이 : " + age + "세, 성인체크 : " + adult + ", 성별 : " + gender;
+        System.out.println(message);
     }
 }
