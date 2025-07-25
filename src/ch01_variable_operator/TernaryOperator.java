@@ -25,8 +25,8 @@ public class TernaryOperator {
         System.out.println( "결과 : " + str);
 
         int su = 7;
-        String  message
-        String msg = su%2 == 0 ? "짝수" : "홀수"
+        String  message;
+        String msg = su%2 == 0 ? "짝수" : "홀수";
 
         // 숫자 7은(는) 홀수입니다.
         message = "숫자 " + su + "은(는) " + msg + "입니다.";
