@@ -13,5 +13,14 @@ public class InheTest04 {
         // 단,  강등을 하게 되면 서브 클래스 내의 변수와 메소드를 접근할 수 있습니다.
         Americano04 ame = (Americano04)beverage01; // 강등
         ame.sipAmericano();
+
+        Beverage04 beverage02 = new Espresso04("에스프레소", 5000.0, 2);
+        beverage02.showInfo();
+
+        Espresso04 espresso = (Espresso04)beverage02;
+        espresso.drinkEspresso();
+
+        Beverage04 beverage03 = new Latte04("라떼", 6000.0, "아몬드 우유");
+        beverage03.showInfo();
     }
 }
